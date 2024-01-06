@@ -20,13 +20,53 @@
         </div>
         <div>
             <ul>
-                <li><a href="#index.html">Home</a></li>
-                <li><a href="#second.html"></a>Sign Up</li>
-                <li><a href="#third.html"></a>Links</li>
-                <li><a href="#fourth.html"></a>More Info</li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/second.html">Sign Up</a></li>
+                <li><a href="/third.html">Links</a></li>
+                <li><a href="/fourth.html">More Info</a></li>
             </ul>
         </div>
     </header>
+
+    <!-- Sign up content -->
+    <main>
+        <h1>Sign up</h1>
+        <p>Sign up to get involved and help our 🐘</p>
+
+        <div>
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <legend>Sign up for more info</legend>
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <div>
+                        <label for="message">How did you hear about us?</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <p>If you would like to recieve more info...</p>
+                        <label for="more-info">Click Here</label>
+                        <input type="checkbox" id="more-info" name="more_info">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
 
     <!-- Footer -->
     <footer>
