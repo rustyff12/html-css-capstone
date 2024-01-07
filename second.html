@@ -14,12 +14,12 @@
 <body>
     <!-- Sign Up -->
     <!-- Header -->
-    <header>
+    <header class="nav">
         <div>
-            <h3>Elephant World</h3>
+            <h3>🐘 Elephant World</h3>
         </div>
         <div>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/second.html">Sign Up</a></li>
                 <li><a href="/third.html">Links</a></li>
@@ -30,40 +30,51 @@
 
     <!-- Sign up content -->
     <main>
-        <h1>Sign up</h1>
-        <p>Sign up to get involved and help our 🐘</p>
+        <div class="hero">
+            <h1>Sign up</h1>
+            <p>Sign up to get involved and help our 🐘s</p>
+        </div>
 
-        <div>
-            <form action="/form-handling-url" method="post">
+        <div class="form-container">
+            <form class="form-box" action="/form-handling-url" method="post">
                 <fieldset>
+
                     <legend>Sign up for more info</legend>
-                    <div>
+
+                    <div class="form-box-item">
                         <label for="firstName">First Name</label>
                         <input type="text" id="firstName" name="first_name">
                     </div>
 
-                    <div>
+                    <div class="form-box-item">
                         <label for="lastName">Last Name</label>
                         <input type="text" id="lastName" name="last_name">
                     </div>
 
-                    <div>
+                    <div class="form-box-item">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email_address">
                     </div>
 
-                    <div>
+                    <div class="form-box-item">
                         <label for="message">How did you hear about us?</label>
                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     </div>
 
-                    <div>
+                    <div class="form-box-item">
                         <p>If you would like to recieve more info...</p>
                         <label for="more-info">Click Here</label>
                         <input type="checkbox" id="more-info" name="more_info">
                     </div>
+
+                    <div class="form-box-item btn">
+                        <button>Sumbit</button>
+                    </div>
                 </fieldset>
             </form>
+            <div class="form-img-box">
+                <img src="./images/el-port-1.jpg" alt="Elephant in the water">
+            </div>
         </div>
 
     </main>

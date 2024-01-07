@@ -8,8 +8,8 @@
 #f4f4f8 - Ghost white
 
 # fonts
-lg oswald
-roboto
+lg oswald 400,700
+reg roboto 100, 300
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
