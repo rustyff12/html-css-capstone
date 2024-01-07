@@ -237,40 +237,44 @@ main {
 }
 
 /* ============ Links/ third ============ */
-.form-container-links {
+.links-container {
     display: flex;
     justify-content: space-between;
     padding: 4rem 5rem;
-    background: #fed766;
 }
 
-.form-img-box-links img {
-    max-width: 35rem;
-    height: 100%;
-}
+ .links-container-item,
+ .links-container-item-right {
+    max-width: 30rem;
+ }
 
-.form-box-ul {
+ .links-container-item-right {
     background: #2ab7ca;
-    min-width: 35rem;
+    display: flex;
+ }
+
+ .links-container-item img {
+    height: 100%;
+ }
+
+ .links-container-item-right ul {
+    max-width: 35rem;
+    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+ }
 
-.form-box-item-li {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0.8rem;
-    list-style: none;
-}
-
-.form-box-item-li a {
-    font-size: var(--fs-700);
-    font-family: var(--ff-lg);
+ .links-container-item-right a {
     text-decoration: none;
+    font-size: var(--fs-800);
+    font-family: var(--ff-lg);
     color: var(--clr-white);
-}
+ }
 
+ .links-container-item-right a:hover {
+    color: #000;
+ }
 /* ============ More info/ fourth ============ */
 .image-grid {
     display: grid;
